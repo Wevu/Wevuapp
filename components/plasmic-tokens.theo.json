@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "Large copy",
+      "type": "fontsize",
+      "value": "24px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "kxZDEp9ud2kneLZcoUaMND",
+        "id": "Ci37BvrYGx5Z"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
