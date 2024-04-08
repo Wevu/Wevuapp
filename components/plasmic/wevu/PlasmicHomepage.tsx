@@ -71,7 +71,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: kxZDEp9ud2kneLZcoUaMND/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: vvpOIbW94OKT/css
 
-import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: gLYS1sq16_aC/icon
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: 9LzsvwBWH20z/icon
 import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: ZJN8G0CX0LQC/icon
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: vt_mfMn2FgTN/icon
@@ -183,26 +182,32 @@ function PlasmicHomepage__RenderFunc(props: {
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__byAa)}
           >
-            <Icon6Icon
-              className={classNames(projectcss.all, sty.svg___9FQFu)}
-              role={"img"}
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img___0AO49)}
+              displayHeight={"102px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/wevu/images/wevu2Png.png",
+                fullWidth: 500,
+                fullHeight: 500,
+                aspectRatio: undefined
+              }}
             />
 
             <div className={classNames(projectcss.all, sty.freeBox__zozsE)} />
 
             <Button
-              className={classNames("__wab_instance", sty.button__rx0Qq)}
+              className={classNames("__wab_instance", sty.button__wn8QS)}
               color={"white"}
               submitsForm={true}
             >
-              {"Start trial"}
-            </Button>
-            <Button
-              className={classNames("__wab_instance", sty.button__z9DIm)}
-              color={"clear"}
-              submitsForm={true}
-            >
-              {"Book demo"}
+              {"Prendre contact"}
             </Button>
           </Stack__>
           <h1
@@ -223,7 +228,7 @@ function PlasmicHomepage__RenderFunc(props: {
             )}
           >
             {
-              "Notre mission ? D\u00e9velopper votre business en exploitant tout le potentiel du digital dans une logique d\u2019investissement optimis\u00e9 pour des performances imm\u00e9diates et durables."
+              "Aujourd'hui en France, 2/3 des entreprises qui meurent n'ont pas pris le virage du digital. \nNotre raison d'\u00eatre : vous permettre d'acc\u00e9der dans le top 1%. "
             }
           </div>
           <Icon3Icon
@@ -270,7 +275,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "D\u00e9couvrez notre agence digitale, o\u00f9 l'excellence rencontre l'innovation. Forts d'une \u00e9quipe pluridisciplinaire de talent, nous sommes d\u00e9termin\u00e9s \u00e0 offrir des r\u00e9sultats exceptionnels dans chaque aspect du marketing en ligne. Faites confiance \u00e0 notre expertise pour propulser votre entreprise vers de nouveaux sommets. Contactez-nous d\u00e8s aujourd'hui pour d\u00e9marrer votre succ\u00e8s num\u00e9rique."
+                      "D\u00e9couvrez notre agence digitale o\u00f9 l'excellence rencontre l'innovation. D\u00e9termin\u00e9s \u00e0 offrir des r\u00e9sultats exceptionnels dans chaque aspect du marketing. Faites confiance \u00e0 notre expertise pour propulser notre entreprise vers de nouveaux sommets. "
                     }
                   </div>
                 </Reveal>
@@ -294,6 +299,18 @@ function PlasmicHomepage__RenderFunc(props: {
                       aspectRatio: 1
                     }}
                   />
+
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__iYqtN)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"337px"}
+                    loading={"lazy"}
+                  />
                 </div>
               </div>
             </div>
@@ -301,7 +318,11 @@ function PlasmicHomepage__RenderFunc(props: {
           <PlasmicImg__
             alt={""}
             className={classNames(sty.img__tbtdo)}
-            displayHeight={"421px"}
+            displayHeight={
+              hasVariant(globalVariants, "screen", "mobileOnly")
+                ? "178px"
+                : "421px"
+            }
             displayMaxHeight={"none"}
             displayMaxWidth={"100%"}
             displayMinHeight={"0"}
@@ -354,9 +375,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text__ckndZ
                     )}
                   >
-                    {
-                      "Promettre, tout le monde peut le faire. D\u00e9livrer, c'est diff\u00e9rent. On en a fait notre cr\u00e9do. "
-                    }
+                    {"Ils nous font confiance. "}
                   </div>
                   <PlasmicImg__
                     alt={""}
@@ -518,56 +537,6 @@ function PlasmicHomepage__RenderFunc(props: {
                   }
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.freeBox__us7Ef)}>
-                <div className={classNames(projectcss.all, sty.freeBox__xcVv)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__vpT7K)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__kDzy
-                      )}
-                    >
-                      {""}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__sXfYx
-                    )}
-                  >
-                    {"Site performance score with Vercel"}
-                  </div>
-                </div>
-              </div>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__bPjDv)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__pn39U
-                  )}
-                >
-                  {"25B+"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wlLpl
-                  )}
-                >
-                  {"requests per week to Vercel\u2019s Edge network"}
-                </div>
-              </Stack__>
             </div>
           </div>
           <h1
@@ -579,7 +548,7 @@ function PlasmicHomepage__RenderFunc(props: {
             )}
           >
             {
-              "Nos experts sont reconnus pour vous garantir un haut niveau de performances et dans la dur\u00e9e"
+              "Nos experts sont reconnus pour vous garantir un haut niveau de performances et dans la dur\u00e9e. "
             }
           </h1>
           <Stack__
@@ -789,18 +758,6 @@ function PlasmicHomepage__RenderFunc(props: {
               {"Prendre contact"}
             </Button>
           </Stack__>
-          <PlasmicImg__
-            alt={""}
-            className={classNames(sty.img__iYqtN)}
-            displayHeight={"auto"}
-            displayMaxHeight={"none"}
-            displayMaxWidth={"100%"}
-            displayMinHeight={"0"}
-            displayMinWidth={"0"}
-            displayWidth={"auto"}
-            loading={"lazy"}
-          />
-
           <div className={classNames(projectcss.all, sty.freeBox__b23Cj)} />
         </Stack__>
       </div>
