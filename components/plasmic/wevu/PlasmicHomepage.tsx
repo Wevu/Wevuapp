@@ -205,6 +205,7 @@ function PlasmicHomepage__RenderFunc(props: {
             <Button
               className={classNames("__wab_instance", sty.button__wn8QS)}
               color={"white"}
+              link={"https://calendly.com/contact-hbsm/30min"}
               submitsForm={true}
             >
               {"Prendre contact"}
@@ -586,6 +587,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 <Button
                   className={classNames("__wab_instance", sty.button__pcTq0)}
                   color={"white"}
+                  link={"https://calendly.com/contact-hbsm/30min"}
                   submitsForm={true}
                 >
                   {"Prendre contact"}
@@ -626,6 +628,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 <Button
                   className={classNames("__wab_instance", sty.button__aj8Tn)}
                   color={"white"}
+                  link={"https://calendly.com/contact-hbsm/30min"}
                   submitsForm={true}
                 >
                   {"Prendre contact"}
@@ -664,6 +667,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 <Button
                   className={classNames("__wab_instance", sty.button___5L00)}
                   color={"white"}
+                  link={"https://calendly.com/contact-hbsm/30min"}
                   submitsForm={true}
                 >
                   {"Prendre contact"}
@@ -704,6 +708,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 <Button
                   className={classNames("__wab_instance", sty.button__eVKh)}
                   color={"white"}
+                  link={"https://calendly.com/contact-hbsm/30min"}
                   submitsForm={true}
                 >
                   {"Prendre contact"}
@@ -753,6 +758,7 @@ function PlasmicHomepage__RenderFunc(props: {
             <Button
               className={classNames("__wab_instance", sty.button__qz9MZ)}
               color={"white"}
+              link={"https://calendly.com/contact-hbsm/30min"}
               submitsForm={true}
             >
               {"Prendre contact"}
