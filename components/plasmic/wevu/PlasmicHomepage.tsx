@@ -747,7 +747,7 @@ function PlasmicHomepage__RenderFunc(props: {
             )}
           >
             {
-              "D\u00e9veloppez un avantage d\u00e9loyale face \u00e0 la concurrence. \nAdoptez une strat\u00e9gie digitale incroyable. "
+              "D\u00e9veloppez un avantage d\u00e9loyal face \u00e0 la concurrence. \nAdoptez une strat\u00e9gie digitale incroyable. "
             }
           </h2>
           <Stack__
