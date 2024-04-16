@@ -229,7 +229,7 @@ function PlasmicHomepage__RenderFunc(props: {
             )}
           >
             {
-              "Aujourd'hui en France, 2/3 des entreprises qui meurent n'ont pas pris le virage du digital. \nNotre raison d'\u00eatre : vous permettre d'acc\u00e9der dans le top 1%. "
+              "Aujourd'hui en France, 2/3 des entreprises en p\u00e9ril \nn'ont pas pris le virage du digital. \nNotre volont\u00e9 : vous permettre d'augmenter votre chiffre d'affaires en vous rendant incontournable sur internet.  "
             }
           </div>
           <Icon3Icon
@@ -524,7 +524,43 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.h2__sSxMf
                   )}
                 >
-                  {"Un processus simple"}
+                  {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      {
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3___2A1Z2
+                          )}
+                        >
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mobileOnly"
+                          ) ? (
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#FFFFFF" }}
+                              >
+                                {"Un processus simple"}
+                              </span>
+                            </React.Fragment>
+                          ) : (
+                            "Un processus simple"
+                          )}
+                        </h3>
+                      }
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  ) : (
+                    "Un processus simple"
+                  )}
                 </h2>
                 <div
                   className={classNames(
@@ -723,7 +759,7 @@ function PlasmicHomepage__RenderFunc(props: {
           <PlasmicImg__
             alt={""}
             className={classNames(sty.img__ettG4)}
-            displayHeight={"auto"}
+            displayHeight={"492px"}
             displayMaxHeight={"none"}
             displayMaxWidth={"100%"}
             displayMinHeight={"0"}
@@ -746,9 +782,9 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.h2__tW4Mr
             )}
           >
-            {
-              "D\u00e9veloppez un avantage d\u00e9loyal face \u00e0 la concurrence. \nAdoptez une strat\u00e9gie digitale incroyable. "
-            }
+            {hasVariant(globalVariants, "screen", "mobileOnly")
+              ? "D\u00e9veloppez un avantage d\u00e9loyal face \u00e0 la concurrence. \nAdoptez une strat\u00e9gie digitale incroyable. "
+              : "D\u00e9veloppez un avantage d\u00e9loyal face \u00e0 la concurrence. \nAdoptez une strat\u00e9gie digitale incroyable. "}
           </h2>
           <Stack__
             as={"div"}
