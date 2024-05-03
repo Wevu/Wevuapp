@@ -219,7 +219,7 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.h1__ioaOs
             )}
           >
-            {"L'agence conseil en strat\u00e9gie digitale."}
+            {"Wevu \nL'agence conseil en strat\u00e9gie digitale."}
           </h1>
           <div
             className={classNames(
@@ -585,7 +585,7 @@ function PlasmicHomepage__RenderFunc(props: {
             )}
           >
             {
-              "Nos experts sont reconnus pour vous garantir un haut niveau de performances et dans la dur\u00e9e. "
+              "Chez Wevu \nNos experts sont reconnus pour vous garantir un haut niveau de performances et dans la dur\u00e9e. "
             }
           </h1>
           <Stack__
